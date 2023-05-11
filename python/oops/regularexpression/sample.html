@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition</title>
+    <style>
+        .d1 {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 8, 8);
+            transition-property: width;
+            transition-duration: 5s;
+            transition-delay: 0s;
+            transition-timing-function: ease;
+        }
+
+        .d2 {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(124, 78, 78);
+            transition-property: width;
+            transition-duration: 5s;
+            transition-delay: 0s;
+            transition-timing-function: ease-in;
+        }
+
+        .d3 {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(25, 208, 5);
+            transition-property: width;
+            transition-duration: 5s;
+            transition-delay: 0s;
+            transition-timing-function:ease-out;
+        }
+
+        .d4 {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(38, 32, 191);
+            transition-property: width;
+            transition-duration: 5s;
+            transition-delay: 0s;
+            transition-timing-function: ease ease-in-out;
+        }
+
+        .d5 {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(13, 223, 209);
+            transition-property: width;
+            transition-duration: 5s;
+            transition-delay: 0s;
+            transition-timing-function: linear;
+        }
+
+        div:hover{
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+        <div class="d1">ease</div>
+        <div class="d2">ease - in</div>
+        <div class="d3">ease - out</div>
+        <div class="d4">ease - in - out</div>
+        <div class="d5">linear</div>
+</body>
+
+</html>

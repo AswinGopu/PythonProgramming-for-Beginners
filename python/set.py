@@ -1,0 +1,12 @@
+set1={1,2,3,"kiran","amal"}
+print(set1)
+set1.add("appu")
+print(set1)
+list1=[5,6,7]
+set1.update(list1)
+print(set1)
+set1.update("mango")
+print(set1)
+tuple1=("a","b","c")
+set1.update(tuple1)
+print(set1)
